@@ -3,29 +3,26 @@ using namespace std;
 
 #define str string
 
-int main()
-{
+int main() {
 
-    int n;
-    cin >> n;
-    int c = 0;
-    bool s = true;
+  int n;
+  cin >> n;
+  int c = 0;
+  bool s = true;
 
-    while (n--)
-    {
+  while (n--) {
 
-        int r;
-        cin >> r;
+    int r;
+    cin >> r;
 
-        if (r == 1)
-        {
-            s = false;
-            break;
-        }
+    if (r == 1) {
+      s = false;
+      break;
     }
+  }
 
-    if (s == true)
-        cout << "EASY" << endl;
-    if (s == false)
-        cout << "HARD" << endl;
+  if (s == true)
+    cout << "EASY" << endl;
+  if (s == false)
+    cout << "HARD" << endl;
 }

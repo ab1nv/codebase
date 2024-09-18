@@ -1,16 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main()
-{
-    string s, n;
-    cin >> s >> n;
+int main() {
+  string s, n;
+  cin >> s >> n;
 
-    string rev = s;
-    reverse(rev.begin(), rev.end());
+  string rev = s;
+  reverse(rev.begin(), rev.end());
 
-    if (n == rev)
-        cout << "YES" << endl;
-    else
-        cout << "NO" << endl;
+  if (n == rev)
+    cout << "YES" << endl;
+  else
+    cout << "NO" << endl;
 }

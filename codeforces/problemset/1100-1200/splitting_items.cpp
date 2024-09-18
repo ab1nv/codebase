@@ -6,4 +6,12 @@ using namespace std;
 #define all(x) (x).begin(), (x).end()
 #define f(i, c, n) for (i = (c); i < (n); i++)
 
-int main() {}
+int main() {
+  int t;
+  cin >> t;
+
+  while (t--) {
+    int n, k;
+    cin >> n >> k;
+  }
+}
