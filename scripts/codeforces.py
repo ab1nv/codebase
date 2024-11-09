@@ -122,7 +122,7 @@ async def handle_codeforces_problem(base_path):
                 f.write(f"## Note\n{data['note']}\n")
             solution_link = f"[{language.capitalize()}](./{problem_code}/{problem_code}.{file_extension})"
             f.write(f"\n## Solution\n{solution_link}\n")
-    problem_map_path = os.path.join(base_path, "cf_problem_map.md")
+    problem_map_path = os.path.join(base_path, "README.md")
     solution_link = f"[{language.capitalize()}](./problemset/{problem_code}/{problem_code}.{file_extension})"
     problem_entry = f"[{data['title']}]({question_url})"
     with open(problem_map_path, "r+") as problem_map:
