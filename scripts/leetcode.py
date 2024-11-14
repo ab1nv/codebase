@@ -1,5 +1,7 @@
 import os
+
 import aiohttp
+
 from scripts.utils import display_menu, get_file_extension, save_metadata
 
 

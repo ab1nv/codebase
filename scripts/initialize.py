@@ -1,9 +1,9 @@
+import asyncio
 import os
 import sys
-import asyncio
 
-from scripts.leetcode import handle_leetcode_problem
 from scripts.codeforces import handle_codeforces_problem
+from scripts.leetcode import handle_leetcode_problem
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 

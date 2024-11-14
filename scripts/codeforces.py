@@ -1,7 +1,9 @@
 import os
-import aiohttp
 import re
+
+import aiohttp
 from bs4 import BeautifulSoup as bf
+
 from scripts.utils import display_menu, get_file_extension, save_metadata
 
 headers = {
@@ -11,7 +13,7 @@ headers = {
 
 def extract_problem_code(url):
     match = re.search(r"/problemset/problem/(\d+/\w+)", url)
-    return match.group(1).replace("/", "") if match else "UnknownCode"
+    return match.group(1).replace("/", "") if match else "000"
 
 
 def format_problem_title(raw_title):
