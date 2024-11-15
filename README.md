@@ -4,9 +4,9 @@ Organised collection of solutions to Leetcode, Codeforces, Advent of Code, etc i
 This repo contains solutions to the problems with my own intuition in the `README` file in each problem's directory. I knew this README, with time, would be very large in size to search through or maintain, that's why I created a couple of [handy scripts](./scripts/) that autogenerate this README for me.
 
 ### 1. Jump Links to Index
-→ [Leetcode Index]()
-→ [Codeforces Index]()
-→ [Advent of Code Index]()
+→ [Leetcode Index](https://github.com/ab1nv/codebase?tab=readme-ov-file#4a-leetcode)
+→ [Codeforces Index](https://github.com/ab1nv/codebase?tab=readme-ov-file#4a-leetcode)
+→ [Advent of Code Index](https://github.com/ab1nv/codebase?tab=readme-ov-file#4a-leetcode)
 
 ### 2. Contributing
 If you find any errors in the solutions listed here or have ideas to implement them in better ways, feel free to open a PR. Documentation changes are also welcome. 
