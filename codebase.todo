@@ -1,0 +1,30 @@
+Codebase:
+    0. refactor to act as a CLI
+    1. add checks for bad url bad problem etc
+    2. hot reload with test cases pass
+    3. file content sorter ascending
+    4. leetcode module complete
+    5. leetcode boilerplate fetcher
+    6. precommit tests and all
+    7. question readme maker fix
+    8. redirect to main readme
+    9. code to readme explainer AI
+    10. Add License
+    11. Fix readme
+    12. add contributing.md
+    13. time and space complexity tab for leetcode questions
+    14. favorite system
+    15. fix readme
+    16. generate favorite list
+    17. Advent of Code script
+    18. create cpp template
+    19. cf contest version
+    20. https://github.com/alfaarghya/alfa-leetcode-api profile stats on page
+    21. readme entries to 4 zeroes like 0001, 0002
+    22. don't clear terminal screen
+    23. readme badges
+    24. star questions method
+    25. fetch stared questions
+    26. Add tags later to codeforces temp
+    27. git commits hook
+    28. auto test coverage

@@ -1,5 +1,4 @@
 temp/
 venv/
 __pycache__/
-*.todo
 .vscode
