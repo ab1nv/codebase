@@ -1,5 +1,5 @@
 # Codebase
-Organised collection of my solutions to Leetcode, Codeforces and Advent of Code in languages I like, with the best practices and full test coverage.
+Organised collection of my solutions to Leetcode, Codeforces and Advent of Code in languages I like, with best practices and full test coverage.
 
 This repo contains my solutions to the problemsets with intuition in `README` file in each problem's directory. I knew this repo, with time, would be very large in size to search through and maintain, that's why I created a couple of [handy scripts](./scripts/) that autogenerate this README for me. 
 
